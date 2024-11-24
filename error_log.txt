@@ -1,0 +1,6 @@
+2024-11-24 13:30:08,285 - Error getting match data for 1003859.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
+2024-11-24 13:31:29,737 - Error getting match data for 1023703.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
+2024-11-24 13:31:30,461 - Error getting match data for 1023705.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
+2024-11-24 13:31:33,080 - Error getting match data for 1023707.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
+2024-11-24 13:32:31,453 - Error getting match data for 1051821.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
+2024-11-24 13:32:31,751 - Error getting match data for 1051815.csv: 502 - {"code":2502,"detail":"http error: bad gateway"}
