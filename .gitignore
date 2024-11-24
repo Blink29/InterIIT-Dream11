@@ -1,11 +1,18 @@
-venv
-all_csv2
-data
-data - Copy
-problems_solved_runout_details
-problems_v2_probs
-problems_v2_solving_copied_to_data
-problems_v3_copied_to_data
-problems_v3_probs
+venv/
+all_csv2/
+data/
+data - Copy/
+problems_solved_runout_details/
+problems_v2_probs/
+problems_v2_solving_copied_to_data/
+problems_v3_copied_to_data/
+problems_v3_probs/
+
+# Ignore all error log files
+*error_log*
 error_log*.txt
+error_log*.log
+
+# Ignore all zip files
+*.zip
 data.zip
