@@ -6,7 +6,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 from espncricinfo.match import Match
 
-logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='error_log_v2.txt', level=logging.ERROR, format='%(asctime)s - %(message)s')
 
 def get_match_data(match_id):
     m = Match(str(match_id)) 
@@ -125,9 +125,9 @@ def process_single_csv(csv_file):
         logging.error(f"Error processing {csv_file}: {str(e)}")
 
 if __name__ == "__main__":
-    data_folder = 'data'
+    data_folder = 'problems'
     csv_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) 
                  if f.endswith('.csv')]
     
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=8) as executor:
         executor.map(process_single_csv, csv_files)
